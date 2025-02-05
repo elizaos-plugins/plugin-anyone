@@ -101,7 +101,7 @@ var startAnyone = {
     const proxyService = AnyoneProxyService.getInstance();
     await proxyService.initialize();
     _callback({
-      text: `Started Anyone`
+      text: "Started Anyone"
     });
     return true;
   },
@@ -174,7 +174,7 @@ var stopAnyone = {
     proxyService.cleanup();
     await AnyoneClientService.stop();
     _callback({
-      text: `Stopped Anyone and cleaned up proxy`
+      text: "Stopped Anyone and cleaned up proxy"
     });
     return true;
   },
