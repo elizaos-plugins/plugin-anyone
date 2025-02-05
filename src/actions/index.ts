@@ -1,2 +1,2 @@
-export * from "./startAnyone.ts";
-export * from "./stopAnyone.ts";
+export * from "./startAnyone";
+export * from "./stopAnyone";
